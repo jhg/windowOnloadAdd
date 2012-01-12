@@ -33,7 +33,11 @@ var windowAddOnload = function ()
     // Add new function
     this.Add = function (new_func)
       {
-        func[func.length] = new_func;
+        // Check that new_func is a function type
+        if (typeof new_func == 'function')
+          {
+            func[func.length] = new_func;
+          }
       }
     // Run all functions
     this.rUn = function ()

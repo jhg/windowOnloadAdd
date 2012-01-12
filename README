@@ -1,0 +1,11 @@
+In the head of your web insert windowOnloadAdd.js script:
+
+  <script language="javascript" src="windowOnloadAdd.js"></script>
+
+Your function for run when window load you must add:
+
+  windowOnload.Add (new_function);
+
+Change "new_function" for your function.
+____
+JHG.
